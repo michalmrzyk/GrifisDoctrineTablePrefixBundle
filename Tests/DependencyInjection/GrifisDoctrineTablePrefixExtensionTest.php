@@ -16,7 +16,9 @@ class GrifisDoctrineTablePrefixExtensionTest extends \PHPUnit_Framework_TestCase
     $container = new ContainerBuilder();
     $loader = new GrifisDoctrineTablePrefixExtension();
     $loader->load(array(array()), $container);
-    $this->assertTrue($container->hasDefinition('knp_menu.renderer.list'), 'The list renderer is loaded');
+    $this->assertEquals('sf_', $container->getParameter('doctrine.db.table_prefix'));
+    $this->assertTrue($container->hasDefinition('doctrine.table_prefix_subscriber'));
+    $this->assertTrue($container->getDefinition('doctrine.table_prefix_subscriber')->hasTag('doctrine.event_subscriber'));
   }
 
 }
