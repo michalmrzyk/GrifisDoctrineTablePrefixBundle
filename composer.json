@@ -1,8 +1,15 @@
 {
     "name": "grifis/doctrine-table-prefix-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony GrifisDoctrineTablePrefixBundle",
+    "license": "MIT",
     "require": {
         "php": ">=5.3.0",
         "symfony/framework-bundle": "2.1.*",
         "doctrine/doctrine-bundle": "1.0.*"
-    }
+    },
+    "autoload": {
+        "psr-0": { "Grifis\\DoctrineTablePrefixBundle": "" }
+    },
+    "target-dir": "Grifis/DoctrineTablePrefixBundle",
 }
