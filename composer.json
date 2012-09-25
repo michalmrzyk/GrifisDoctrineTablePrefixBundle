@@ -1,7 +1,7 @@
 {
     "name": "grifis/doctrine-table-prefix-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony GrifisDoctrineTablePrefixBundle",
+    "description": "This simple bundle add prefix to your table name. Use it for new symfony2 application.",
     "license": "MIT",
     "require": {
         "php": ">=5.3.0",
