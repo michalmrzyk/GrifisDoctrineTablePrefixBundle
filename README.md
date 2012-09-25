@@ -9,7 +9,7 @@ This simple bundle add prefix to your table name. Use it for new symfony2 applic
 
 Add GrifisDoctrineTablePrefixBundle in your composer.json:
 
-```js
+``` js
 {
     "require": {
         "grifis/doctrine-table-prefix-bundle": "*"
