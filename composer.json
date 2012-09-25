@@ -12,5 +12,5 @@
     "autoload": {
         "psr-0": { "Grifis\\DoctrineTablePrefixBundle": "" }
     },
-    "target-dir": "Grifis/DoctrineTablePrefixBundle",
+    "target-dir": "Grifis/DoctrineTablePrefixBundle"
 }
