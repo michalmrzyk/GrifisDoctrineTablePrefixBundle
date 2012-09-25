@@ -2,7 +2,7 @@
     "name": "grifis/doctrine-table-prefix-bundle",
     "require": {
         "php": ">=5.3.0",
-        "symfony/framework-bundle": "2.1.*"
+        "symfony/framework-bundle": "2.1.*",
         "doctrine/doctrine-bundle": "1.0.*"
     }
 }
