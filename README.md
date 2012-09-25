@@ -48,5 +48,5 @@ You can change the prefix in your configuration:
 ``` yaml
 # app/config/parameters.yml
 parameters:
-    doctrine.db.prefix_table: sf_
+    doctrine.db.table_prefix: sf_
 ```
