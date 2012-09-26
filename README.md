@@ -1,5 +1,7 @@
+GrifisDoctrineTablePrefixBundle
+===============================
+
 This bundle add prefix to your table name.
-======
 
 ## Installation
 
