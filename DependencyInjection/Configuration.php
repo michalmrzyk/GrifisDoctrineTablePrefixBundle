@@ -20,9 +20,10 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('grifis_doctrine_table_prefix');
 
-        // Here you should define the parameters that are allowed to
-        // configure your bundle. See the documentation linked above for
-        // more information on that topic.
+        $rootNode
+          ->children()
+            ->scalarNode('prefix')->defaultValue('sf_')->end()
+          ->end();
 
         return $treeBuilder;
     }

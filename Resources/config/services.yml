@@ -1,9 +1,6 @@
-parameters:
-    doctrine.db.table_prefix: sf_
-
 services:
-    doctrine.table_prefix_subscriber:
+    grifis_doctrine_table_prefix.subscriber:
         class: Grifis\DoctrineTablePrefixBundle\Subscriber\TablePrefixSubscriber
-        arguments: [%doctrine.db.table_prefix%]
+        arguments: [%grifis_doctrine_table_prefix.prefix%]
         tags:
             - { name: doctrine.event_subscriber }

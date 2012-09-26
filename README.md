@@ -46,7 +46,7 @@ Default prefix is "sf_".
 You can change the prefix in your configuration:
 
 ``` yaml
-# app/config/parameters.yml
-parameters:
-    doctrine.db.table_prefix: sf_
+# app/config/config.yml
+grifis_doctrine_table_prefix:
+    prefix: sf_
 ```
