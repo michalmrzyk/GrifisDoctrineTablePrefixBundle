@@ -1,7 +1,5 @@
-README
+This bundle add prefix to your table name.
 ======
-
-This simple bundle add prefix to your table name. Use it for new symfony2 application.
 
 ## Installation
 
